@@ -1,0 +1,86 @@
+body {
+    position: relative;
+    display: block;
+    background-color: whitesmoke;
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    padding: 10px;
+    height: 100px;
+    background-color: #eee;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* CSS Barre de menu */
+#navbar {
+    z-index: 9999;
+    background-color: white;
+    opacity: 0.8;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.6s;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+/* FIN CSS barre de menu */
+
+/* page d'accueil */
+
+/* Container qui contient l'image*/
+.container {
+    position: relative;
+    height: 100%;
+
+}
+
+/* Bloc de texte */
+.text-block {
+    position: absolute;
+    bottom: 50%;
+    right: calc(50% - 330px);
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* FIN Page d'accueil */
+
+/* Informations Personnelles */
+
+.container-info{
+    display: flex;
+    background-color: #eee;
+
+}
+
+#profile{
+    border: 6px solid lightgrey;
+    border-radius: 250px;
+    position: relative;
+}
+
+.info{
+    flex-grow: 1;
+}

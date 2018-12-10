@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Lucas Piazza</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="navbar">
+        <!-- Ancre à configurer plus tard -->
+        <a href="#Infoperso">Informations Personnelles</a>
+        <a href="#Parcours">Parcours</a>
+        <a href="#skills">Compétences & Connaissances</a>
+        <a href="#projest">Projets</a>
+
+    </div>
+
+    <div class="container">
+        <img src="background_home.jpg" style="width:100%;">
+        <div class="text-block">
+            <h4>Lucas Piazza</h4>
+            <p>Bachelor 1 Informatique Ingésup at YNOV Campus</p>
+        </div>
+    </div>
+
+    <div class="container-info">
+        <div class="info">
+            <img id="profile" src="profil_picture.png">
+        </div>
+        <div class="info">
+            <ul>
+                <li>
+                    Nom: Piazza
+                </li>
+                <li>
+                    Prénom: Lucas
+                </li>
+                <li>
+                    Age: 20 ans
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div style="padding:15px 15px 2500px;font-size:30px">
+        <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <footer>
+        &copy; 2018 YNOV
+    </footer>
+
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+    }
+</script>
+</body>
+</html>
