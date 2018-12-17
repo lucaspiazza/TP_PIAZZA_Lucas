@@ -1,0 +1,44 @@
+body{
+    background: url('media.jpg') fixed 0 0;
+
+}
+
+h1{
+    color: #a3d7ff;
+    text-align: center;
+    font-size: 60px;
+}
+.sub-title{
+    margin-top: -15px;
+    font-size: 25px;
+}
+#corps{
+
+    width: 600px;
+    color: #24f0ff;
+    margin: auto;
+    margin-top: 200px;
+    border: 2px #a3d7ff solid;
+    position: relative;
+}
+
+#corps:before {
+    content: '';
+    background: url('media.jpg') fixed 0 0;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);
+    -o-filter: blur(5px);
+    filter: blur(5px);
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.texte{
+    padding: 20px;
+    text-align: center;
+}
